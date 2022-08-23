@@ -1,6 +1,6 @@
 channles:
   - conda-forge
 dependencies:
-  - sklearn
+  - scikit-learn
   - pandas
   - streamlit
