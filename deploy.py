@@ -67,7 +67,7 @@ target_names = pd.DataFrame({0:['Nondemented'],1:['Demented'], 2:['Converted']})
 
 
 # load the model from disk
-model = pickle.load(open('dementia_model.pkl', 'rb'))
+model = pickle.load(open('model.pkl', 'rb'))
 # result = loaded_model.score(X_test, Y_test)
 # print(result)
 
